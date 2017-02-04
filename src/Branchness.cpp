@@ -49,7 +49,6 @@ int main(int argc, char** argv)
 					volatile float crash = 5.0f / 0.0f;
 					volatile int* pc = NULL;
 					std::cout << *pc << std::endl;
-
 				}
 			}
 		}
